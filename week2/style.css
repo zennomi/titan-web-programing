@@ -1,0 +1,307 @@
+#app-main[data-v-5f312ed8] {
+    min-height: 70vh
+}
+
+.app-main[data-v-6ef63cc6] {
+    min-height: calc(100vh - 257px);
+    width: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+.icon-circle-close[data-v-2ec27007] {
+    cursor: pointer
+}
+
+.row_info[data-v-2ec27007]:hover {
+    color: #000
+}
+
+.box-card-component .card__header {
+    padding: 0!important
+}
+
+.box-card-component .box-card-header[data-v-70da5df1] {
+    position: relative;
+    height: 220px
+}
+
+.box-card-component .box-card-header img[data-v-70da5df1] {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.box-card-component .box-card-header img[data-v-70da5df1]:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: contrast(130%);
+    filter: contrast(130%)
+}
+
+.box-card-component .mallki-text[data-v-70da5df1] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.box-card-component .panThumb[data-v-70da5df1] {
+    z-index: 100;
+    height: 200px!important;
+    width: 200px!important;
+    position: absolute!important;
+    top: -130px;
+    left: 0;
+    border: 5px solid #fff;
+    background-color: #fff;
+    margin: auto
+}
+
+.box-card-component .panThumb .pan-info[data-v-70da5df1],.box-card-component .panThumb[data-v-70da5df1] {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important
+}
+
+.box-card-component .progress-item[data-v-70da5df1] {
+    margin-bottom: 10px;
+    font-size: 14px
+}
+
+.box-card-component .box-card-component .panThumb[data-v-70da5df1] {
+    z-index: 100;
+    height: 70px!important;
+    width: 70px!important;
+    position: absolute!important;
+    top: -45px;
+    left: 0;
+    border: 5px solid #fff;
+    background-color: #fff;
+    margin: auto;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important
+}
+
+.box-card-component .pan-item[data-v-70da5df1] {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2)
+}
+
+.box-card-component .pan-thumb[data-v-70da5df1] {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    -webkit-transform-origin: 95% 40%;
+    transform-origin: 95% 40%;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+@media only screen and (max-width: 1510px) {
+    .box-card-component .mallki-text[data-v-70da5df1] {
+        display:none
+    }
+}
+
+.detailInfoUser[data-v-255cceb4] {
+    margin: auto;
+    max-width: 1200px
+}
+
+.detailInfoUser .contact-card[data-v-255cceb4] {
+    cursor: pointer
+}
+
+.detailInfoUser .contact-card .contact-actions[data-v-255cceb4] {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    opacity: 0;
+    text-align: end
+}
+
+.detailInfoUser .contact-card:hover .contact-actions[data-v-255cceb4] {
+    opacity: 1
+}
+
+.detailInfoUser .contact-header[data-v-255cceb4] {
+    text-align: end
+}
+
+.title-desire,.title-exper,.title-skill {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 0
+}
+
+.detailInfoUser .contact-address {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 2.5em
+}
+
+.detailInfoUser .title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-bottom: 10px!important
+}
+
+.table td,.table th {
+    padding: 8px 0
+}
+
+.header-info {
+    padding: 20px 0;
+    background: #ecf5ff
+}
+
+.img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3)
+}
+
+.infoUser {
+    margin-top: 23%
+}
+
+.infoUserAll {
+    margin-top: 10px
+}
+
+p {
+    margin: 5px 0!important
+}
+
+.card {
+    border-radius: 16px
+}
+
+#card-info .card__body {
+    padding: 20px 20px 20px 30px
+}
+
+#card-info {
+    margin: 10px 0
+}
+
+#card-info ul {
+    list-style: none;
+    padding-left: 5px
+}
+
+.content-tab {
+    padding-left: 10px
+}
+
+.card-chart {
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%
+}
+
+.content-card li {
+    list-style: none
+}
+
+.content-card ul {
+    padding-left: 10px
+}
+
+@media screen and (max-width: 800px) {
+    .content-card {
+        padding-left:0!important
+    }
+
+    .col2,.col3 {
+        padding-left: 10px
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .infoUser {
+        margin-top:16%!important
+    }
+}
+
+.detailInfoUser .actions[data-v-255cceb4],.detailInfoUser .cmt[data-v-255cceb4] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.detailInfoUser .cmt[data-v-255cceb4] {
+    margin: 5px 0;
+    -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.10196078431372549);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.10196078431372549);
+    padding: 10px;
+    border-radius: 8px
+}
+
+.detailInfoUser .cmt .info[data-v-255cceb4] {
+    opacity: .6
+}
+
+.detailInfoUser .cmt .info i[data-v-255cceb4] {
+    font-size: 12px;
+    color: #b90606
+}
+
+.detailInfoUser .cmt .info .mail[data-v-255cceb4] {
+    padding-right: 20px
+}
+
+.detailInfoUser .cmt .far.fa-times-circle[data-v-255cceb4] {
+    -ms-flex-item-align: center;
+    align-self: center;
+    cursor: pointer
+}
+
+.card-chart[data-v-4a364d94] {
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%
+}
+
+.card-header[data-v-4a364d94] {
+    border-bottom: 1px solid#ecf0f1;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: #57606f
+}
+
+.card-body[data-v-4a364d94] {
+    padding: 10px;
+    line-height: 2
+}
